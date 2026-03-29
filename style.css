@@ -1,0 +1,154 @@
+/* body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.scan-btn {
+    background: linear-gradient(45deg, #00c853, #64dd17);
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0,255,100,0.4);
+}
+
+.scan-btn:hover {
+    transform: scale(1.08);
+}
+
+.camera-box canvas {
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,255,200,0.6);
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 20px;
+    width: 340px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+#result {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#instruction {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #c8ffc8;
+}
+
+.score-box {
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgba(0,0,0,0.4);
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.tagline {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.scan-btn {
+    background: linear-gradient(45deg, #00c853, #64dd17);
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,255,100,0.4);
+}
+
+.scan-btn:hover {
+    transform: scale(1.08);
+}
+
+.camera-box video {
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,255,200,0.6);
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 20px;
+    width: 340px;
+    backdrop-filter: blur(12px);
+}
+
+#result {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#instruction {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #c8ffc8;
+}
+
+.score-box {
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 12px 25px;
+    border-radius: 30px;
+    display: inline-block;
+}
